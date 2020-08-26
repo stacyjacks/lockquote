@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SearchActivity">
+
+    <WebView
+        android:id="@+id/lyricWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:longClickable="true"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/lyricSelectionTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:paddingEnd="12dp"
+            android:text="@string/select_text_hint"
+            android:textColor="@color/whiteColor"
+            android:textStyle="italic"
+            android:scrollbars="vertical"/>
+
+        <Button
+            android:id="@+id/useSelectionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/red_button_layout_height"
+            android:fitsSystemWindows="true"
+            android:layout_gravity="center"
+            android:paddingHorizontal="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/use_button"
+            android:textColor="@color/whiteColor"
+            android:background="@drawable/button_round"/>
+
+    </LinearLayout>
+
+</LinearLayout>

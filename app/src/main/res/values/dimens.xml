@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="success_animation_width">250dp</dimen>
+    <dimen name="success_animation_height">250dp</dimen>
+    <dimen name="red_button_layout_height">32dp</dimen>
+    <dimen name="helpful_text_padding_horizontal">12dp</dimen>
+    <dimen name="helpful_text_padding_vertical">8dp</dimen>
+    <dimen name="task_number_font_size">24sp</dimen>
+    <dimen name="helpful_text_font_size">18sp</dimen>
+    <dimen name="great_text_font_size">24sp</dimen>
+</resources>

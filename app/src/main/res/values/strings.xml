@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">LockQuote</string>
+    <string name="query_hint">Search for songs or input a lyric excerpt</string>
+    <string name="search_results">Search results</string>
+
+    <string name="taskOne">Task 1 / 5</string>
+    <string name="taskTwo">Task 2 / 5 </string>
+    <string name="taskThree">Task 3 / 5</string>
+    <string name="taskFour">Task 4 / 5</string>
+    <string name="taskFive">Task 5 / 5</string>
+
+    <string name="ok_button">OK</string>
+    <string name="use_button">Use selection</string>
+    <string name="select_text_hint">Select an excerpt from the lyric, up to 15 words, and hit Copy.</string>
+    <string name="error_too_many_words">Please select an excerpt of 15 words or less.</string>
+    <string name="error_copy_not_tapped">You haven\'t selected a lyric excerpt for your password. Please, select a fragment and hit Copy.</string>
+    <string name="error_something_wrong">Something went wrong.</string>
+    <string name="error_cant_open">Can\'t open lyrics</string>
+    <string name="try_again_button">Try again with a different lyric</string>
+    <string name="just_a_sec">"Just a sec…</string>
+    <string name="try_again_hint">Not what you wanted?</string>
+    <string name="next_level_button">Help me to memorise it!</string>
+    <string name="taskOneInputFullPassword">Input the full password exactly as it appears below:</string>
+    <string name="taskTwoOrderLyrics">Put the lyrics in the correct order by dragging and dropping the word boxes below:</string>
+    <string name="clear_pass_button">Clear</string>
+    <string name="continue_button">CONTINUE</string>
+    <string name="generated_pass_activity">Your password</string>
+
+    <string name="taskThreeOrderPassword">Now, similarly, put the characters of your new password in the correct order. Are you up to the challenge?</string>
+    <string name="taskFourChoosePassword">Select the right password from the list. Hint: sing the lyric to yourself to remember!</string>
+    <string name="taskFiveInputPass">Now… Do you think you\'re ready to use your new password? Input the correct characters, this time no hints!</string>
+    <string name="take_me_back_button">I can\'t do it</string>
+    <string name="take_a_good_look">Take a good look at the selected lyric and the password we\'ve generated for you:</string>
+    <string name="well_done">Well done!</string>
+    <string name="congrats_new_password">Congratulations! You\'re ready to use your new password. Take another good look at it, copy it, or do whatever:</string>
+    <string name="another_go">Revisit the games</string>
+    <string name="make_new_button">New password</string>
+    <string name="copy_button">Copy to clipboard</string>
+    <string name="great_text">Great!</string>
+
+    <string name="about_title">LockQuote %s</string>
+    <string name="about_message">Created by Anastasia Kurmakaeva. \n\nGRAPHICS:\nLogo design by: Masha Kurmakaeva. \nhttps://www.flaticon.com/authors/eucalyp \nfrom www.flaticon.com \nHicy Wonder / Lottie Files \nJared Stanley / Lottie Files \nChris Gannon / Lottie Files \nDan Macmahon / Lottie Files</string>
+    <string name="characters">characters</string>
+    <string name="memorisation_game_activity">Memorisation in progress…</string>
+    <string name="copied_to_clipboard">Password copied to clipboard</string>
+    <string name="messageDisconnected">No Internet connection.\nThis page will refresh \nas soon as you\'re back online!</string>
+</resources>

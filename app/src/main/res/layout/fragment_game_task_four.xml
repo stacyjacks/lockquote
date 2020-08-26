@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_game_task_three"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_b"
+    android:orientation="vertical"
+    tools:context=".ui.GameActivity"
+    tools:ignore="UselessParent">
+
+    <TextView
+        android:id="@+id/taskFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingEnd="18dp"
+        android:text="@string/taskFour"
+        android:textAllCaps="true"
+        android:textColor="@color/whiteColor"
+        android:textSize="@dimen/task_number_font_size" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="8dp"
+            android:background="@drawable/bubble_white"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bubble_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/helpfulTextTaskFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/helpful_text_padding_horizontal"
+                    android:paddingVertical="@dimen/helpful_text_padding_vertical"
+                    android:text="@string/taskFourChoosePassword"
+                    android:textSize="@dimen/helpful_text_font_size" />
+
+                <RadioGroup
+                    android:id="@+id/multipleChoiceTaskFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hapticFeedbackEnabled="true"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="8dp"
+                    android:paddingTop="4dp">
+
+                    <RadioButton
+                        android:id="@+id/radioButton1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/bubble_grey"
+                        android:button="@null"
+                        android:buttonTint="@color/whiteColor"
+                        android:gravity="center"
+                        android:hapticFeedbackEnabled="true"
+                        android:padding="4dp"
+                        android:text="Choice 1"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/bubble_grey"
+                        android:button="@null"
+                        android:buttonTint="@color/whiteColor"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="Choice 2"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/bubble_grey"
+                        android:button="@null"
+                        android:buttonTint="@color/whiteColor"
+                        android:gravity="center"
+                        android:hapticFeedbackEnabled="true"
+                        android:padding="4dp"
+                        android:text="Choice 3"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="4dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/bubble_grey"
+                        android:button="@null"
+                        android:buttonTint="@color/whiteColor"
+                        android:gravity="center"
+                        android:hapticFeedbackEnabled="true"
+                        android:padding="4dp"
+                        android:text="Choice 4"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/successTaskFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:visibility="invisible">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/checkViewAnimation"
+                        android:layout_width="@dimen/success_animation_width"
+                        android:layout_height="@dimen/success_animation_height"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/checkmarklightgreen" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingHorizontal="8dp"
+                            android:text="@string/great_text"
+                            android:textSize="@dimen/great_text_font_size"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/continueButtonTaskFour"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="4dp"
+                            android:background="@drawable/bubble"
+                            android:paddingHorizontal="8dp"
+                            android:text="@string/continue_button"
+                            android:textAlignment="center"
+                            android:textColor="@color/whiteColor" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_game_task_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_b"
+    android:orientation="vertical"
+    tools:context=".ui.GameActivity">
+
+    <TextView
+        android:id="@+id/taskOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingEnd="18dp"
+        android:text="@string/taskOne"
+        android:textAllCaps="true"
+        android:textColor="@color/whiteColor"
+        android:textSize="@dimen/task_number_font_size" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="8dp"
+            android:background="@drawable/bubble_white"
+            android:padding="8dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayoutTaskOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bubble_white">
+
+                <TextView
+                    android:id="@+id/helpfulTextTaskOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/helpful_text_padding_horizontal"
+                    android:paddingTop="@dimen/helpful_text_padding_vertical"
+                    android:text="@string/taskOneInputFullPassword"
+                    android:textSize="@dimen/helpful_text_font_size"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/layoutRVTaskOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingHorizontal="8dp"
+                    android:paddingBottom="4dp"
+                    app:layout_constraintBottom_toTopOf="@id/clearPassButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/helpfulTextTaskOne">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/editTextRV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hapticFeedbackEnabled="true" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/clearPassButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/red_button_layout_height"
+                    android:background="@drawable/bubble_red"
+                    android:paddingHorizontal="8dp"
+                    android:text="@string/clear_pass_button"
+                    android:textColor="@color/whiteColor"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toTopOf="@+id/successTaskOne"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/layoutRVTaskOne" />
+
+                <LinearLayout
+                    android:id="@+id/successTaskOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/clearPassButton">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/checkViewAnimation"
+                        android:layout_width="@dimen/success_animation_width"
+                        android:layout_height="@dimen/success_animation_height"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/checkmarklightgreen" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingHorizontal="8dp"
+                            android:text="@string/great_text"
+                            android:textSize="@dimen/great_text_font_size"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/continueButtonTaskOne"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="4dp"
+                            android:background="@drawable/bubble"
+                            android:paddingHorizontal="8dp"
+                            android:text="@string/continue_button"
+                            android:textAlignment="center"
+                            android:textColor="@color/whiteColor" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

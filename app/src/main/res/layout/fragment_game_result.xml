@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/game_result_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_b"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/well_done"
+        android:textColor="@color/whiteColor"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="8dp"
+            android:background="@drawable/bubble_white"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/bubble_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/helpful_text_padding_horizontal"
+                    android:paddingVertical="@dimen/helpful_text_padding_vertical"
+                    android:text="@string/congrats_new_password"
+                    android:textSize="@dimen/helpful_text_font_size" />
+
+                <TextView
+                    android:id="@+id/passwordFinal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/bubble_white"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:paddingStart="16dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="8dp"
+                    android:text="Dummy Text"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/copyButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/red_button_layout_height"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bubble_red"
+                    android:fitsSystemWindows="true"
+                    android:paddingHorizontal="8dp"
+                    android:text="@string/copy_button"
+                    android:textColor="@color/whiteColor" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/vinyl"
+                    android:layout_width="@dimen/success_animation_width"
+                    android:layout_height="@dimen/success_animation_height"
+                    android:layout_gravity="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/vinylrecordblack" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingTop="12dp">
+
+                    <Button
+                        android:id="@+id/anotherGoButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/red_button_layout_height"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginEnd="6dp"
+                        android:background="@drawable/bubble_red"
+                        android:fitsSystemWindows="true"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/another_go"
+                        android:textColor="@color/whiteColor" />
+
+                    <Button
+                        android:id="@+id/makeNewPasswordButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/red_button_layout_height"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginEnd="12dp"
+                        android:background="@drawable/bubble_red"
+                        android:fitsSystemWindows="true"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/make_new_button"
+                        android:textColor="@color/whiteColor" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

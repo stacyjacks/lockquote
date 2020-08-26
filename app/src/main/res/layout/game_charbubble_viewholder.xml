@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/charBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/bubble_grey"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="true"
+        android:padding="8dp"
+        android:text="char 1"
+        android:fontFamily="@font/source_sans_pro_regular"
+        android:textColor="@color/whiteColor"
+        android:textSize="20sp"/>
+
+</LinearLayout>

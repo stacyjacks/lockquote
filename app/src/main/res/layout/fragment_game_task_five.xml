@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_game_task_five"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_b"
+    android:orientation="vertical"
+    tools:context=".ui.GameActivity">
+
+    <TextView
+        android:id="@+id/taskFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingEnd="18dp"
+        android:text="@string/taskFive"
+        android:textAllCaps="true"
+        android:textColor="@color/whiteColor"
+        android:textSize="@dimen/task_number_font_size" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="8dp"
+            android:background="@drawable/bubble_white"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bubble_white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/helpfulTextTaskFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/helpful_text_padding_horizontal"
+                    android:paddingVertical="@dimen/helpful_text_padding_vertical"
+                    android:text="@string/taskFiveInputPass"
+                    android:textSize="@dimen/helpful_text_font_size" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hapticFeedbackEnabled="true"
+                    android:orientation="horizontal"
+                    android:paddingVertical="8dp"
+                    android:paddingBottom="4dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextField15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/edit_text_style"
+                        android:ems="1"
+                        android:fontFamily="@font/source_sans_pro_regular"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions|textVisiblePassword"
+                        android:maxLength="1"
+                        android:paddingVertical="8dp"
+                        android:textColor="@color/whiteColor"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/helpButtons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:visibility="visible">
+
+                    <Button
+                        android:id="@+id/takeMeBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/red_button_layout_height"
+                        android:layout_gravity="center"
+                        android:layout_margin="12dp"
+                        android:background="@drawable/bubble_red"
+                        android:fitsSystemWindows="true"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/take_me_back_button"
+                        android:textColor="@color/whiteColor" />
+
+                    <Button
+                        android:id="@+id/clearPassFinalButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/red_button_layout_height"
+                        android:layout_gravity="center"
+                        android:layout_margin="12dp"
+                        android:background="@drawable/bubble_red"
+                        android:fitsSystemWindows="true"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/clear_pass_button"
+                        android:textColor="@color/whiteColor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/successTaskFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:visibility="invisible">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/checkViewAnimation"
+                        android:layout_width="@dimen/success_animation_width"
+                        android:layout_height="@dimen/success_animation_height"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/checkmarklightgreen" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingHorizontal="8dp"
+                            android:text="@string/great_text"
+                            android:textSize="@dimen/great_text_font_size"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/continueButtonTaskFive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="4dp"
+                            android:background="@drawable/bubble"
+                            android:paddingHorizontal="8dp"
+                            android:text="@string/continue_button"
+                            android:textAlignment="center"
+                            android:textColor="@color/whiteColor" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

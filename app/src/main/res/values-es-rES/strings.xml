@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LockQuote</string>
+    <string name="query_hint">Busca canciones o un fragmento de letra</string>
+    <string name="search_results">Resultados</string>
+    <string name="taskOne">Tarea 1 / 5</string>
+    <string name="taskTwo">Tarea 2 / 5</string>
+    <string name="taskThree">Tarea 3 / 5</string>
+    <string name="taskFour">Tarea 4 / 5</string>
+    <string name="taskFive">Tarea 5 / 5</string>
+    <string name="ok_button">OK</string>
+    <string name="use_button">Usar selección</string>
+    <string name="select_text_hint">Selecciona un fragmento de la letra hasta 15 palabras y haz clic en \"Copiar\".</string>
+    <string name="try_again_button">Intentarlo de nuevo con otra letra</string>
+    <string name="just_a_sec">Un segundo…</string>
+    <string name="try_again_hint">¿No es lo que querías?</string>
+    <string name="next_level_button">¡Ayúdame a memorizarla!</string>
+    <string name="taskOneInputFullPassword">Introduce la contraseña completa exactamente como aparece a continuación:</string>
+    <string name="taskTwoOrderLyrics">Pon las palabras de la letra en el orden correcto, arrastrando los recuadros hacia la posición correcta.</string>
+    <string name="clear_pass_button">Limpiar</string>
+    <string name="continue_button">CONTINUAR</string>
+    <string name="generated_pass_activity">Tu contraseña</string>
+    <string name="taskThreeOrderPassword">Ahora, ordena los caracteres de tu contraseña nueva del mismo modo. ¿Crees que lo tienes ya?</string>
+    <string name="taskFourChoosePassword">Elige la contraseña correcta entre las opciones. Truco: canta la canción para recordarla.</string>
+    <string name="taskFiveInputPass">Y ahora… ¿Crees que te sabes ya tu contraseña nueva? Introduce los caracteres correctos, ¡esta vez sin pistas!</string>
+    <string name="take_me_back_button">No puedo</string>
+    <string name="take_a_good_look">Echa un vistazo a la letra seleccionada y la contraseña que hemos generado para ti:</string>
+    <string name="well_done">¡Muy bien!</string>
+    <string name="congrats_new_password">¡Enhorabuena! Ya puedes empezar a usar tu contraseña nueva. Mírala bien, cópiala o haz lo que quieras con ella:</string>
+    <string name="another_go">Repasar juegos</string>
+    <string name="make_new_button">Nueva contraseña</string>
+    <string name="great_text">¡Genial!</string>
+    <string name="about_title">LockQuote %s</string>
+    <string name="about_message">Creado por Anastasia Kurmakaeva. \n\nGRÁFICOS:\nLogotipo diseñado por Masha Kurmakaeva. \nhttps://www.flaticon.com/authors/eucalyp \nde www.flaticon.com \nHicy Wonder / Lottie Files \nJared Stanley / Lottie Files \nChris Gannon / Lottie Files \nDan Macmahon / Lottie Files</string>
+    <string name="characters">caracteres</string>
+    <string name="memorisation_game_activity">Memorización en progreso…</string>
+    <string name="error_too_many_words">Por favor, selecciona un fragmento de 15 palabras o menos.</string>
+    <string name="error_copy_not_tapped">No has seleccionado un fragmento de letra. Por favor, selecciónalo y pulsa \"Copiar\".</string>
+    <string name="error_something_wrong">Algo no ha ido bien.</string>
+    <string name="error_cant_open">No se puede abrir la letra.</string>
+    <string name="copy_button">Copiar a portapapeles</string>
+    <string name="copied_to_clipboard">Contraseña copiada al portapapeles</string>
+    <string name="messageDisconnected">Sin conexión a Internet.\nLa página se recargará \nen cuanto vuelvas a estar online!.</string>
+</resources>
